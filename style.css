@@ -2,43 +2,52 @@ body {
   margin: 0;
 }
 
+.nav-menu-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 20px;
+}
+
 .logo {
   display: inline;
   width: 186px;
   height: 72px;
-  margin: 39px 168px 39px 204px;
+  margin: 39px 168px 39px 83px;
 }
 
 .header {
-  justify-content: start;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0;
+  background: url("img/Rectangle\ 141.png") center/cover no-repeat,
+    url("img/Rectangle\ 104.jpg") center/cover no-repeat;
+}
+
+.header::before {
+  content: "";
   background: url("img/Rectangle\ 104.jpg") center/cover no-repeat;
+  opacity: 0.5;
 }
 
 .nav {
-  display: inline;
-}
-
-.ulcontact {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.contact {
-  color: #ffffff;
+.nav-menu {
   display: inline-block;
   margin: 0 19px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  line-height: 24px;
 }
 
-.contact:hover,
-.contact:focus {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
   color: #94cfff;
 }
 
@@ -52,7 +61,87 @@ body {
   color: #26c6ea;
   font-family: "HeadlandOne";
   font-style: normal;
+  font-size: 20px;
   font-weight: 400;
   line-height: 25px;
   cursor: pointer;
+}
+
+.card {
+  background: url("img/Group\ 48\ 1.jpg") top/ 100% 740px no-repeat;
+}
+
+.card-info {
+  display: inline-block;
+  width: 376px;
+  height: 381px;
+  padding: 204px 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.card-info-arrow {
+  display: block;
+  margin: 0 53px;
+}
+
+.card-mediaICONS {
+  display: inline-block;
+  width: 50px;
+  height: 141px;
+  margin-left: 520px;
+  background: url("img/Vector.png") top, url("img/Vector\ \(1\).png") center,
+    url("img/Vector\ \(2\).png") bottom;
+  background-repeat: no-repeat;
+}
+
+.card-info-btn {
+  width: 260px;
+  height: 80px;
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #26c7ea;
+  margin-top: 42px;
+}
+
+.card-bottom-info {
+  text-align: center;
+}
+
+.card-bottom-infoH3 {
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #0a3853;
+}
+
+.card-name {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.card-bottom-icons {
+  background: url("img/Rectangle\ 8.png") no-repeat;
+  width: 400px;
+  height: 120px;
+  margin: 8px auto 10px;
 }
