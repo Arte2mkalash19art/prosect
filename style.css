@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  display: inline;
+  width: 186px;
+  height: 72px;
+  margin: 39px 168px 39px 204px;
+}
+
+.header {
+  justify-content: start;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background: url("img/Rectangle\ 104.jpg") center/cover no-repeat;
+}
+
+.nav {
+  display: inline;
+}
+
+.ulcontact {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact {
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #94cfff;
+}
+
+.btn-nav {
+  margin: 0 199px;
+  width: 141px;
+  height: 41.69px;
+  background: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
+  color: #26c6ea;
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  cursor: pointer;
+}
