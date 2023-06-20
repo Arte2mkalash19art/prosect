@@ -94,6 +94,7 @@ body {
   width: 50px;
   height: 141px;
   margin-left: 520px;
+  margin-bottom: 122px;
   background: url("img/Vector.png") top, url("img/Vector\ \(1\).png") center,
     url("img/Vector\ \(2\).png") bottom;
   background-repeat: no-repeat;
