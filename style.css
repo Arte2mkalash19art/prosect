@@ -14,9 +14,7 @@ body {
 
 .logo {
   display: inline;
-  width: 186px;
-  height: 72px;
-  margin: 39px 168px 39px 83px;
+  margin: 39px 168px 39px 204px;
 }
 
 .header {
@@ -27,6 +25,7 @@ body {
   margin: 0;
   background: url("img/Rectangle\ 141.png") center/cover no-repeat,
     url("img/Rectangle\ 104.jpg") center/cover no-repeat;
+  border-bottom: 3px solid #ffffff;
 }
 
 .header::before {
@@ -132,7 +131,6 @@ body {
 .card-name {
   margin-top: 16px;
   font-family: "Inter";
-
   font-weight: 400;
   font-size: 24px;
   text-align: center;
