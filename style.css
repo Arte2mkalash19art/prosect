@@ -181,6 +181,7 @@ ol {
   text-align: center;
   color: #26c7ea;
   margin-top: 42px;
+  cursor: pointer;
 }
 
 .medialist {
