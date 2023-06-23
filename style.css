@@ -315,3 +315,63 @@ ol {
 .clnext {
   color: #141414;
 }
+/* починається футер*/
+.footer {
+  height: 223px;
+  margin-top: 350px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url("img/Rectangle\ 104.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 3px solid #ffffff;
+  display: flex;
+}
+
+.footer-logo {
+  width: 183px;
+  height: 70px;
+  padding: 77px 0px 77px 204px;
+}
+
+.decorfooter {
+  width: 2px;
+  height: 153px;
+  margin: 35px 80px;
+}
+
+.conteiner-footer-texet {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 20px;
+  font-family: Inter;
+  margin-top: 80px;
+  width: 675px;
+  height: 24px;
+}
+
+.footer-text2 {
+  color: #fff;
+  font-size: 20px;
+  font-family: Inter;
+}
+
+.footer-vector {
+  margin: 0 20px;
+}
+
+.footer-bottom-tetx {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: Inter;
+  margin-top: 21px;
+}
