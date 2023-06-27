@@ -1,6 +1,8 @@
 body,
-pre {
+pre,
+li {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -190,36 +192,44 @@ ol {
   line-height: 30px;
   text-align: center;
   color: #26c7ea;
-  margin-top: 42px;
+  margin-top: 28px;
   cursor: pointer;
 }
 
 .medialist {
   position: absolute;
   margin-left: 1056px;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  width: 50px;
+  height: 151px;
 }
 
 .limediainsta {
-  background: url("img/icons-instagram.png");
-  width: 30px;
-  height: 30px;
+  background: url("img/icons-instagram.png") no-repeat;
 }
 
 .mediainsta {
-  padding: 11px 15px;
+  padding: 7px 15px;
+}
+
+.mediaYT {
+  padding: 5px 25px;
 }
 
 .limediatwitter {
   width: 34px;
   height: 30px;
-  background: url("img/icons-twitter.png");
+  background: url("img/icons-twitter.png") no-repeat;
   margin: 24px 0;
 }
 
 .limediayoutube {
   width: 50px;
   height: 30px;
-  background: url("img/icons-YouTube.png");
+  background: url("img/icons-YouTube.png") no-repeat;
 }
 
 .card-bottom {
