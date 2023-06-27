@@ -153,7 +153,7 @@ ol {
 
 /*закінчується навінаційна панель */
 /*починається секція1 */
-.section {
+.section1 {
   background: url("img/man1-bg.jpg") lightgray 50% / cover no-repeat;
   height: 740px;
   width: 1440px;
@@ -263,7 +263,7 @@ ol {
   background: #0b0e66;
   border: 3px solid #26c7ea;
   border-radius: 45px 0px;
-  margin: 330px 630px;
+  margin: 330px 590px;
   cursor: pointer;
 }
 /*закінчується секція2 */
