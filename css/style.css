@@ -7,11 +7,10 @@ dl {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 ul,
@@ -22,14 +21,13 @@ ol {
 }
 /*починається навінаційна панель */
 .navpanel {
-  width: 1440px;
   height: 150px;
   background-image: linear-gradient(
       to bottom,
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.87)
     ),
-    url("img/photo-nav-footer.jpg");
+    url("../images/photo-nav-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 3px solid #ffffff;
@@ -38,6 +36,11 @@ ol {
 }
 
 .logo {
+  width: 186px;
+  height: 72px;
+}
+
+.link-navpanel {
   width: 186px;
   height: 72px;
   margin: 0 168px 0 174px;
@@ -74,7 +77,6 @@ ol {
   font-size: 20px;
   font-family: "Headland One", serif;
   margin: 0 87px 0 212px;
-  cursor: pointer;
 }
 
 /*починається світчер */
@@ -157,7 +159,7 @@ ol {
 /*закінчується навінаційна панель */
 /*починається секція1 */
 .section1 {
-  background: url("img/man1-bg.jpg") lightgray 50% / cover no-repeat;
+  background: url("../images/man1-bg.jpg") lightgray 50% / cover no-repeat;
   height: 740px;
   width: 1440px;
 }
@@ -194,7 +196,6 @@ ol {
   text-align: center;
   color: #26c7ea;
   margin-top: 28px;
-  cursor: pointer;
 }
 
 .medialist {
@@ -209,7 +210,7 @@ ol {
 }
 
 .limediainsta {
-  background: url("img/icons-instagram.png") no-repeat;
+  background: url("../images/icons-instagram.png") no-repeat;
 }
 
 .mediainsta {
@@ -223,14 +224,14 @@ ol {
 .limediatwitter {
   width: 34px;
   height: 30px;
-  background: url("img/icons-twitter.png") no-repeat;
+  background: url("../images/icons-twitter.png") no-repeat;
   margin: 24px 0;
 }
 
 .limediayoutube {
   width: 50px;
   height: 30px;
-  background: url("img/icons-YouTube.png") no-repeat;
+  background: url("../images/icons-YouTube.png") no-repeat;
 }
 
 .card-bottom {
@@ -258,7 +259,7 @@ ol {
 .section2 {
   width: 1440px;
   height: 741px;
-  background: url("img/woman-bg.png") lightgray 50% / cover no-repeat;
+  background: url("../images/woman-bg.png") lightgray 50% / cover no-repeat;
   margin-top: 350px;
 }
 
@@ -271,10 +272,16 @@ ol {
   box-sizing: border-box;
   width: 260px;
   height: 80px;
-  background: #0b0e66;
+  background-color: #0b0e66;
   border: 3px solid #26c7ea;
   border-radius: 45px 0px;
   margin: 330px 590px;
+}
+
+.btn-trailer:hover,
+.navpanel-btn:hover,
+.section1-btn:hover {
+  background-color: #0c108f;
   cursor: pointer;
 }
 /*закінчується секція2 */
@@ -283,7 +290,7 @@ ol {
   width: 1440px;
   margin-top: 350px;
   height: 704px;
-  background: url("img/nebo-bg3.png") lightgray 50% / cover no-repeat;
+  background: url("../images/nebo-bg3.png") lightgray 50% / cover no-repeat;
 }
 
 .section-h3ll {
@@ -346,7 +353,7 @@ ol {
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.87)
     ),
-    url("img/photo-nav-footer.jpg");
+    url("../images/photo-nav-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 3px solid #ffffff;
@@ -356,7 +363,7 @@ ol {
 .footer-logo {
   width: 183px;
   height: 70px;
-  padding: 77px 0px 77px 204px;
+  margin: 77px 0px 77px;
 }
 
 .decorfooter {
