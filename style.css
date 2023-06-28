@@ -1,6 +1,7 @@
 body,
 pre,
-li {
+li,
+dl {
   margin: 0;
   padding: 0;
 }
