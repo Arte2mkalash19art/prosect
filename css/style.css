@@ -376,13 +376,13 @@ ol {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  padding-top: 80px;
 }
 
 .footer-text {
   color: #fff;
   font-size: 20px;
   font-family: Inter;
-  margin-top: 80px;
   width: 675px;
   height: 24px;
 }
