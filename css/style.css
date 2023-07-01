@@ -398,7 +398,10 @@ ol {
 
 .footer-bottom-tetx {
   color: #fff;
-  text-align: center;
   font-size: 14px;
   margin-top: 21px;
+}
+
+.footer-li {
+  margin: 0 135px;
 }
