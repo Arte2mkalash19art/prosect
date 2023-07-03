@@ -1,7 +1,8 @@
 body,
 pre,
 li,
-dl {
+dl,
+p {
   margin: 0;
   padding: 0;
 }
@@ -19,6 +20,16 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+.btn {
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  text-align: center;
+  color: #26c7ea;
+  font-family: "Inter", sans-serif;
+}
+
 /*починається навінаційна панель */
 .navpanel {
   height: 150px;
@@ -70,10 +81,7 @@ ol {
 .navpanel-btn {
   width: 141px;
   height: 42px;
-  border-radius: 35px 0px;
   border: 2px solid #26c7ea;
-  background: #0b0e66;
-  color: #26c6ea;
   font-size: 20px;
   font-family: "Headland One", serif;
   margin: 0 87px 0 212px;
@@ -186,15 +194,9 @@ ol {
 .section1-btn {
   width: 260px;
   height: 80px;
-  background: #0b0e66;
-  border: 3px solid #26c7ea;
-  border-radius: 45px 0px;
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  text-align: center;
-  color: #26c7ea;
   margin-top: 28px;
 }
 
@@ -264,16 +266,11 @@ ol {
 }
 
 .btn-trailer {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  color: #26c7ea;
-  box-sizing: border-box;
   width: 260px;
   height: 80px;
-  background-color: #0b0e66;
-  border: 3px solid #26c7ea;
   border-radius: 45px 0px;
   margin: 330px 590px;
 }
