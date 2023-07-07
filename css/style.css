@@ -75,7 +75,6 @@ ol {
 .nav-link:focus {
   color: #94cfff;
   cursor: pointer;
-  font-weight: 400;
 }
 
 .navpanel-btn {
@@ -202,7 +201,7 @@ ol {
 
 .medialist {
   position: absolute;
-  margin-left: 1056px;
+  margin-left: 956px;
   margin-top: 34px;
   display: flex;
   flex-direction: column;
@@ -360,7 +359,7 @@ ol {
 .footer-logo {
   width: 183px;
   height: 70px;
-  margin: 77px 0px 77px;
+  margin: 77px 0px 77px 164px;
 }
 
 .decorfooter {
