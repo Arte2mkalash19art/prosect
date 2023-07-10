@@ -2,7 +2,8 @@ body,
 pre,
 li,
 dl,
-p {
+p,
+a {
   margin: 0;
   padding: 0;
 }
@@ -12,6 +13,10 @@ body {
   font-weight: 400;
   width: 1440px;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul,
@@ -115,7 +120,7 @@ ol {
 .toggle-switch-handle {
   position: absolute;
   top: 4px;
-  left: 5px;
+  left: 20px;
   width: 11px;
   height: 12px;
   background-color: #fff;
@@ -124,46 +129,19 @@ ol {
   transition: transform 0.3s ease-in-out;
 }
 
-.toggle-switch::before {
-  content: "";
-  font-size: 12px;
-  font-weight: bold;
-  color: inherit;
-  text-shadow: 1px 1px #fff;
-  transition: color 0.3s ease-in-out;
-}
-
-.toggle-switch input[type="checkbox"]:checked + .toggle-switch-handle {
-  transform: translateX(15px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 0 3px inherit;
-}
-
-.toggle-switch input[type="checkbox"]:checked + .toggle-switch-background {
-  background-color: inherit;
-  box-shadow: inset 0 0 0 2px inherit;
-}
-
-.toggle-switch input[type="checkbox"]:checked + .toggle-switch:before {
-  content: "On";
-  color: inherit;
-  right: -15px;
-}
-
 .toggle-switch
   input[type="checkbox"]:checked
   + .toggle-switch-background
   .toggle-switch-handle {
-  transform: translateX(15px);
+  transform: translateX(-15px);
 }
-/*закінчується світчер */
 .lengue {
   color: #fff;
   text-align: center;
   font-size: 16px;
   margin: 10px;
+  font-family: "Hammersmith One", sans-serif;
 }
-
-/*закінчується навінаційна панель */
 /*починається секція1 */
 .section1 {
   background: url("../images/man1-bg.jpg") lightgray 50% / cover no-repeat;
@@ -255,7 +233,6 @@ ol {
   margin: 0 auto;
   margin-top: 8px;
 }
-/*закінчується секція1 */
 /*починається сукція2 */
 .section2 {
   width: 1440px;
@@ -280,7 +257,6 @@ ol {
   background-color: #0c108f;
   cursor: pointer;
 }
-/*закінчується секція2 */
 /*починається секція3 */
 .section-bg3 {
   width: 1440px;
