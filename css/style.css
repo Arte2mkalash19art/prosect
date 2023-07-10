@@ -49,23 +49,20 @@ ol {
   border-bottom: 3px solid #ffffff;
   display: flex;
   align-items: center;
-}
-
-.logo {
-  width: 186px;
-  height: 72px;
+  padding: 0 38px 0 204px;
 }
 
 .link-navpanel {
   width: 186px;
   height: 72px;
-  margin: 0 168px 0 174px;
+  margin: 0 168px 0 0;
+  background: url("../images/Logonav.png");
 }
 
 .containernavlink {
   display: flex;
-  justify-content: center;
-  column-gap: 38px;
+  justify-content: space-between;
+  width: 325px;
 }
 
 .nav-link {
@@ -88,7 +85,8 @@ ol {
   border: 2px solid #26c7ea;
   font-size: 20px;
   font-family: "Headland One", serif;
-  margin: 0 87px 0 212px;
+  font-weight: 400;
+  margin: 0 49px 0 212px;
 }
 
 /*починається світчер */
@@ -156,10 +154,7 @@ ol {
 }
 
 .section1-text {
-  width: 376px;
-  height: 560px;
-  padding: 180px 0 0 204px;
-  display: block;
+  padding: 175px 204px;
 }
 
 .section1-img {
@@ -179,7 +174,7 @@ ol {
 
 .medialist {
   position: absolute;
-  margin-left: 956px;
+  margin-left: 986px;
   margin-top: 34px;
   display: flex;
   flex-direction: column;
@@ -333,9 +328,7 @@ ol {
 }
 
 .footer-logo {
-  width: 183px;
-  height: 70px;
-  margin: 77px 0px 77px 164px;
+  margin: 77px 0px 77px 204px;
 }
 
 .decorfooter {
@@ -376,4 +369,11 @@ ol {
 
 .footer-li {
   margin: 0 135px;
+}
+
+.link-footer {
+  width: 183px;
+  height: 70px;
+  background: url("../images/logo\,footer.png");
+  margin: 77px 0 77px 204px;
 }
