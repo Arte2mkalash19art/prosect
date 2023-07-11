@@ -238,16 +238,17 @@ ol {
 }
 
 .btn-trailer {
-  width: 260px;
-  height: 80px;
+  width: 215px;
+  height: 25px;
   border-radius: 45px 0px;
   margin: 330px 590px;
   display: inline-block;
+  padding: 23px 10px 27px;
+  font-size: 24px;
 }
 
 .btn-link {
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 27px;
   line-height: 30px;
   color: #26c7ea;
 }
