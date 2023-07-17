@@ -39,6 +39,11 @@ ol {
   text-align: center;
 }
 
+.container-content {
+  width: 1030px;
+  margin: 0 auto;
+}
+
 /*починається навінаційна панель */
 .navpanel {
   height: 150px;
@@ -156,7 +161,7 @@ ol {
 }
 
 .section1-text {
-  padding: 171px 204px;
+  padding: 171px 0;
 }
 
 .section1-img {
@@ -241,7 +246,7 @@ ol {
   width: 215px;
   height: 25px;
   border-radius: 45px 0px;
-  margin: 330px 590px;
+  margin: 330px 380px;
   display: inline-block;
   padding: 23px 10px 27px;
   font-size: 24px;
@@ -280,9 +285,9 @@ ol {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 36px;
+  column-gap: 35px;
   row-gap: 24px;
-  padding: 0 204px 58px;
+  padding-bottom: 57px;
 }
 
 .box {
