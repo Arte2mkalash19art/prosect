@@ -65,7 +65,6 @@ ol {
   width: 186px;
   height: 72px;
   margin: 0 168px 0 0;
-  background: url("../images/Logonav.png");
 }
 
 .containernavlink {
@@ -324,9 +323,6 @@ ol {
 }
 /* починається футер*/
 .footer {
-  width: 1440px;
-  height: 223px;
-  margin-top: 350px;
   background-image: linear-gradient(
       to bottom,
       rgba(43, 74, 97, 0.87),
@@ -337,23 +333,22 @@ ol {
   background-repeat: no-repeat;
   border-bottom: 3px solid #ffffff;
   display: flex;
-}
-
-.footer-logo {
-  margin: 77px 0px 77px 204px;
+  padding: 35px 204px 25px;
+  box-sizing: border-box;
 }
 
 .decorfooter {
   width: 2px;
   height: 153px;
-  margin: 35px 80px;
+  margin: 0 80px;
+  box-sizing: border-box;
 }
 
 .conteiner-footer-texet {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  padding-top: 80px;
+  margin-top: 45px;
 }
 
 .footer-text {
@@ -370,13 +365,15 @@ ol {
 }
 
 .footer-vector {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .footer-bottom-tetx {
   color: #fff;
   font-size: 14px;
   margin-top: 21px;
+  position: absolute;
+  margin: 146px 210px 0 474px;
 }
 
 .footer-li {
@@ -386,6 +383,5 @@ ol {
 .link-footer {
   width: 183px;
   height: 70px;
-  background: url("../images/logo\,footer.png");
-  margin: 77px 0 77px 204px;
+  margin: 41px 0;
 }
