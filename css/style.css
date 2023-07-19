@@ -44,6 +44,13 @@ ol {
   margin: 0 auto;
 }
 
+.header_footer {
+  width: 1030px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
 /*починається навінаційна панель */
 .navpanel {
   height: 150px;
@@ -57,8 +64,8 @@ ol {
   background-repeat: no-repeat;
   border-bottom: 3px solid #ffffff;
   display: flex;
-  align-items: center;
   padding: 0 38px 0 204px;
+  align-items: center;
 }
 
 .link-navpanel {
@@ -71,6 +78,7 @@ ol {
   display: flex;
   justify-content: space-between;
   width: 325px;
+  align-items: center;
 }
 
 .nav-link {
@@ -92,7 +100,7 @@ ol {
   height: 42px;
   border: 2px solid #26c7ea;
   font-size: 20px;
-  margin: 0 37px 0 211px;
+  margin-left: 211px;
 }
 
 /*починається світчер */
@@ -143,7 +151,7 @@ ol {
   color: #fff;
   text-align: center;
   font-size: 16px;
-  margin: 10px;
+  margin: 16px;
   font-family: "Hammersmith One", sans-serif;
 }
 /*починається секція1 */
@@ -334,7 +342,6 @@ ol {
   border-bottom: 3px solid #ffffff;
   display: flex;
   padding: 35px 204px 25px;
-  box-sizing: border-box;
 }
 
 .decorfooter {
@@ -356,12 +363,13 @@ ol {
   font-size: 20px;
   font-family: Inter;
   width: 675px;
-  height: 24px;
+  display: inline;
 }
 
 .footer-text2 {
   color: #fff;
   font-size: 20px;
+  display: inline;
 }
 
 .footer-vector {
