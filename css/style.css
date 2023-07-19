@@ -355,7 +355,7 @@ ol {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  margin-top: 45px;
+  margin-top: 6px;
 }
 
 .footer-text {
