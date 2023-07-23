@@ -246,7 +246,6 @@ ol {
   width: 1440px;
   height: 741px;
   background: url("../images/woman-bg.png") lightgray 50% / cover no-repeat;
-  margin-top: 350px;
 }
 
 .btn-trailer {
@@ -274,7 +273,6 @@ ol {
 /*починається секція3 */
 .section-bg3 {
   width: 1440px;
-  margin-top: 350px;
   height: 704px;
   background: url("../images/nebo-bg3.png") lightgray 50% / cover no-repeat;
 }
@@ -286,6 +284,7 @@ ol {
   text-align: center;
   padding: 58px 0 45px;
   margin: 0;
+  font-weight: 400;
 }
 
 .section-container {
